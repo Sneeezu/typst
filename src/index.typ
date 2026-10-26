@@ -7,7 +7,7 @@
 #show: fitiel.with(
   lang: "cs",
   title: "IEL - protokol k projektu",
-  author: [Zbyněk, Šnajdar \ xsna],
+  author: [Zbyněk, Šnajdar \ xsnajdz00],
 )
 
 #show outline.entry: set text(size: 13pt)
@@ -18,12 +18,16 @@
 // vložení jednotlivých příkladů
 #include "01-pr1.typ"
 #pagebreak()
+
 #include "02-pr2.typ"
 #pagebreak()
+
 #include "03-pr3.typ"
 #pagebreak()
+
 #include "04-pr4.typ"
 #pagebreak()
+
 #include "05-pr5.typ"
 #pagebreak()
 
