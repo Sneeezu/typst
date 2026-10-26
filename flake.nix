@@ -27,13 +27,9 @@
     {
       devShells = forEachSupportedSystem (
         { pkgs }:
-        let
-          nimbus15 = pkgs.callPackage ./pkgs/nimbus15.nix { inherit pkgs; };
-        in
         {
           default = pkgs.mkShell {
             packages = with pkgs; [
-              nimbus15
               open-sans
               zathura
               tinymist
