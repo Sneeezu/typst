@@ -3,4 +3,4 @@
 = Příklad 4
 
 // Jako parametr zadejte skupinu (A-H)
-#zadani-4("B")
+#zadani-4("F")
