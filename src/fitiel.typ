@@ -28,7 +28,7 @@
   set par(justify: true)
 
   show link: underline
-  show link: set text(fill: blue)
+  show link: set text(fill: colors.mocha-blue)
 
   show heading.where(level: 1): element => block(
     width: 100%,
