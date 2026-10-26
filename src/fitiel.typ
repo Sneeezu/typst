@@ -20,7 +20,7 @@
   )
 
   set text(
-    font: "Latin Modern Roman",
+    font: "New Computer Modern",
     size: 11pt,
     lang: lang,
     fill: colors.mocha-crust,
@@ -126,7 +126,7 @@
   #zadani-tabulka(
     (
       [sk.],
-      [$U_1$ \[V\]],
+      [$U$ \[V\]],
       [$R_1$ \[Ω\]],
       [$R_2$ \[Ω\]],
       [$R_3$ \[Ω\]],
@@ -192,7 +192,7 @@
 
   Pro napájecí napětí platí: $u_1 = U_1 ⋅ sin(2 π f t)$, $u_2 = U_2 ⋅ sin(2 π f t)$.
   \
-  Ve vztahu pro napětí $u_(C_2) = U_(C_2) ⋅ sin(2 π f t + ϕ_(C_2))$ určete $|U_(C_2)|$ a $ϕ_(C_2)$.
+  Ve vztahu pro napětí $u_(C_2) = U_(C_2) ⋅ sin(2 π f t + phi_(C_2))$ určete $|U_(C_2)|$ a $phi_(C_2)$.
   Použijte metodu smyčkových proudů.
 
   Pozn: Pomocné směry šipek napájecích zdrojů platí pro speciální časový okamžik ($t = frac(π, 2 ω)$).

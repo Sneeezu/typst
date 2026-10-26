@@ -40,6 +40,10 @@
               typstyle
               typst
             ];
+
+            shellHook = ''
+              export TYPST_FONT_PATHS="${pkgs.lmodern}/share/fonts"
+            '';
           };
         }
       );
