@@ -10,7 +10,7 @@ all: build
 .PHONY: build
 build:
 	@mkdir -p $(OUT)
-	@typst compile $(SRC)/$(TYP_FILENAME) $(OUT)/$(basename $(TYP_FILENAME)).pdf
+	@typst compile --creation-timestamp $$(date +%s) $(SRC)/$(TYP_FILENAME) $(OUT)/$(basename $(TYP_FILENAME)).pdf
 
 .PHONY: gc
 gc:

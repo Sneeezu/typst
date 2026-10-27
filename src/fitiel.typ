@@ -1,4 +1,18 @@
-#let datum = "26. října 2026"
+#let mesice = (
+  "ledna",
+  "února",
+  "března",
+  "dubna",
+  "května",
+  "června",
+  "července",
+  "srpna",
+  "září",
+  "října",
+  "listopadu",
+  "prosince",
+)
+#let dnes = datetime.today()
 
 // Šablona pro projekt IEL
 #import "colors.typ" as colors
@@ -59,7 +73,7 @@
     #text(size: 13pt)[
       #author
       #v(0.4em)
-      #datum
+      #dnes.day(). #mesice.at(dnes.month() - 1) #dnes.year()
     ]
   ]
   v(1.5em)
