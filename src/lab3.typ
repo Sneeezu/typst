@@ -16,7 +16,7 @@
 
 Cílem náhradního měření bylo stanovit voltampérovou charakteristiku
 nelineární součástky a určit její pracovní bod. Použit byl zdroj 9 V,
-potenciometr $R_"pot" = 250 kΩ$, sériový rezistor $R_S = 1 kΩ$, dioda
+potenciometr $R_"pot" = 250 "kΩ"$, sériový rezistor $R_S = 1 "kΩ"$, dioda
 nebo LED a dva multimetry.
 
 = Experiment 1 – nastavení napětí $U_0$
@@ -57,9 +57,9 @@ zapojen paralelně k diodě. Pro každou hodnotu $U_0$ zapište $U_N$ a $I_N$.
 
 #placeholder("Vložte graf VA charakteristiky $I_N = f(U_N)$.", height: 30mm)
 
-= Experiment 3 – pracovní bod při $U_0 = 2,7 V$
+= Experiment 3 – pracovní bod při $U_0 = 2,7 "V"$
 
-Potenciometrem nastavte zadané napětí $U_0 = 2,7 V$. Z naměřených hodnot
+Potenciometrem nastavte zadané napětí $U_0 = 2,7 "V"$. Z naměřených hodnot
 určete pracovní bod $P_N = (U_P, I_P)$.
 
 #figure(
