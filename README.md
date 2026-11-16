@@ -35,3 +35,7 @@ Po sestavení je dokument v `target/index.pdf`. Otevření prohlížečem: `make
 ## Editor
 
 Pro našeptávání a kontrolu lze použít `tinymist` (LSP pro Typst), který je v Nix prostředí k dispozici.
+
+## Náhradní laboratoř č. 3
+
+Hlavní soubor `src/index.typ` nyní sestavuje šablonu pro náhradní zadání laboratoře č. 3. Obsahuje realistické obrázky zapojení v `src/fig/realistic-experiment-*.png`, tabulku měření a placeholdery pro graf, naměřené hodnoty a odpovědi. Původní souhrnná stránka `06-tab.typ` se do hlavního dokumentu již nevkládá.
